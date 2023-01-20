@@ -1,7 +1,5 @@
 import styled from "styled-components"
 import Link from "next/link"
-import Lottie from "lottie-react"
-import navbarJson from "../animations/navbar.json"
 
 const NavbarWrapper = styled.nav`
     display: flex;
