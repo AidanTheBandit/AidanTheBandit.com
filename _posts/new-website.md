@@ -1,8 +1,8 @@
 ---
-title: This is the new infi.sh
-description: A completely new website, built from scratch with Next.js
+title: This is the new aidanthebandit.com
+description: A completely new website!
 coverImage: /posts/new-website/epiphany.png
-date: "2021-09-27T21:27:13.118Z"
+date: "2023-01-20T21:27:13.118Z"
 relation:
     project: aidanthebandit.com
 pinned: true
@@ -14,15 +14,13 @@ author:
 I have been working on a new website for a while now, and it finally got to a point where I can say: It's here.  
 It's built with Next.js and has a fully custom static-site blog system using Markdown with Rehype for content management.
 
-**See its [project page](/project/infi.sh) for more information about the technology and the project.**
+**See its [project page](/project/aidanthebandit.com) for more information about the technology and the project.**
 
 The new website is still partly under construction, but it is ready to go as far as I can see.  
 I hope you enjoy it just as much as I enjoyed making it and enjoy maintaining it.  
-If you have any questions, you can contact me either on Discord or via contact@infi.sh.
+If you have any questions, you can contact me either on Discord or via aidan@banditco.dev.
 
-**The source code is available on [GitHub](https://github.com/infi/infi.sh).**
-
-Also be sure to check out **Wait What's** website at [waitwhat.sh](https://waitwhat.sh).
+**The source code is available on [GitHub](https://github.com/AidanTheBandit/aidanthebandit.com).**
 
 ## The Demonstration
 
@@ -67,7 +65,7 @@ $$
 \end{align}
 $$
 
-Inline $\KaTeX$. A [link](https://github.com/infi). Big link without custom display text: https://github.com/infi/infi-minesweeper/tree/dev/src/assets/fonts.
+Inline $\KaTeX$. A [link](https://github.com/aidanthebandit). Big link without custom display text: https://barkle.chat/@AidanTheBandit.
 
 -   A list item
     -   Another list item
