@@ -16,9 +16,9 @@ const Home = ({ allPosts, allProjects }: Props) => {
     return (
         <>
             <Head>
-                <meta property="og:title" content="Infi" />
+                <meta property="og:title" content="AidanTheBandit" />
                 <meta property="og:image" content="https://infi.sh/opengraph.png" />
-                <meta property="og:description" content="Hello. I'm Infi." />
+                <meta property="og:description" content="Hello. I'm Bandit." />
             </Head>
             <InitialIntroduction />
             <LatestGrid

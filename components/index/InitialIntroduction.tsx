@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import { ChevronDown } from "@styled-icons/boxicons-regular"
-import Lottie from "lottie-react"
-import helloJson from "../../animations/hello.json"
+//import Lottie from "lottie-react"
+//import helloJson from "../../animations/hello.json"
 
 const IntroductionWrapper = styled.div`
     display: flex;
@@ -30,6 +30,7 @@ const Introduction = styled.div`
 
 const NameIntroduction = styled.div`
     width: max(20vw, 300px);
+    line-height: 0.4;
 `
 
 const GitHubSection = styled.div`
@@ -37,6 +38,12 @@ const GitHubSection = styled.div`
     font-size: 1.5rem;
     color: var(--color-tertiary);
     text-align: right;
+`
+const SoftSection = styled.div`
+    width: max(20vw, 300px);
+    line-height: 0.4;
+    color: var(--color-tertiary);
+
 `
 
 const GitHubLink = styled.a`
@@ -60,15 +67,18 @@ const InitialIntroduction = () => {
         <IntroductionWrapper>
             <Introduction>
                 <NameIntroduction>
-                    <Lottie animationData={helloJson} loop={false} />
+                    <h1>Hello! I'm Aidan.</h1>
+                    <SoftSection>
+                    <h1>I make software.</h1>
+                    </SoftSection>
                 </NameIntroduction>
                 <GitHubSection>
                     <GitHubLink
-                        href="https://github.com/infi"
+                        href="https://github.com/AidanTheBandit"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        github.com/infi »
+                        github.com/AidanTheBandit »
                     </GitHubLink>
                     or scroll down
                 </GitHubSection>

@@ -6,7 +6,7 @@ relation:
     project: gifbox
 author:
     name: Infi
-    picture: https://github.com/infi.png
+    picture: https://github.com/AidanTheBandit.png
 ---
 
 Let's start with the big news: **[GIFBox](/project/gifbox) is now available at https://gifbox.me**!  

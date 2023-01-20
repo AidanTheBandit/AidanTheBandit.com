@@ -31,6 +31,7 @@ const NavbarLeft = styled.div`
     display: flex;
     align-items: center;
     gap: 1rem;
+    margin-left: 60px;
 `
 
 const NavbarLink = styled(Link)`
@@ -47,7 +48,7 @@ const Navbar = () => {
             <NavbarLeft>
                 <NavbarLink href="/">
                     <NavbarBrand>
-                        <Lottie animationData={navbarJson} loop={false} />
+                        <h1>Bandit</h1>
                     </NavbarBrand>
                 </NavbarLink>
             </NavbarLeft>
