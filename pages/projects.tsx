@@ -43,8 +43,8 @@ const AllProjects = ({ projects, featuredProjects }: { projects: any, featuredPr
         <>
             <Head>
                 <meta property="og:title" content="Projects" />
-                <meta property="og:image" content="https://infi.sh/api/opengraph/text?q=All%20Projects" />
-                <meta property="og:description" content="A list for most of Infi's modern projects." />
+                <meta property="og:image" content="https://aidanthebandit.com/api/opengraph/text?q=All%20Projects" />
+                <meta property="og:description" content="A list for most of Aidan's modern projects." />
             </Head>
             <Navbar />
             <ProjectHeader>

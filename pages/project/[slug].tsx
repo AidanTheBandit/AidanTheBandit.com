@@ -94,7 +94,7 @@ const Project = ({ project, latestProjects }: { project: any, latestProjects: an
             <>
                 <Head>
                     <meta property="og:title" content="Project not found" />
-                    <meta property="og:image" content="https://infi.sh/opengraph.png" />
+                    <meta property="og:image" content="https://aidanthebandit.com/opengraph.png" />
                     <meta property="og:description" content="Sorry for that" />
                 </Head>
                 <Navbar />
@@ -110,7 +110,7 @@ const Project = ({ project, latestProjects }: { project: any, latestProjects: an
         <>
             <Head>
                 <meta property="og:title" content={project.title} />
-                <meta property="og:image" content={project.ogImage ?? "https://infi.sh/opengraph.png"} />
+                <meta property="og:image" content={project.ogImage ?? "https://aidanthebandit.com/opengraph.png"} />
                 <meta property="og:description" content={project.description} />
             </Head>
             <Navbar />

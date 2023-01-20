@@ -70,7 +70,7 @@ export const getPostBySlug = (slug: string, fields: string[] = []) => {
             } else {
                 items[
                     field
-                ] = `https://infi.sh/api/opengraph/post/${realSlug}.png`
+                ] = `https://aidanthebandit.com/api/opengraph/post/${realSlug}.png`
             }
         }
 

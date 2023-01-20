@@ -86,7 +86,7 @@ const Post = ({ post, latestPosts }: { post: any; latestPosts: any }) => {
                     <meta property="og:title" content="Post not found" />
                     <meta
                         property="og:image"
-                        content="https://infi.sh/opengraph.png"
+                        content="https://aidanthebandit.com/opengraph.png"
                     />
                     <meta property="og:description" content="Sorry for that" />
                 </Head>
@@ -105,7 +105,7 @@ const Post = ({ post, latestPosts }: { post: any; latestPosts: any }) => {
                 <meta property="og:title" content={post.title} />
                 <meta
                     property="og:image"
-                    content={post.ogImage ?? "https://infi.sh/opengraph.png"}
+                    content={post.ogImage ?? "https://aidanthebandit.com/opengraph.png"}
                 />
                 <meta
                     property="og:description"
